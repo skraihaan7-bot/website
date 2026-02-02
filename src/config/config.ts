@@ -6,23 +6,19 @@ export const getAsset = (path: string) => {
 
 const siteConfig = {
   personal: {
-    name: 'Dr. Chandravesh Chaudhari',
-    title: 'Assistant Professor | Multimodal AI Researcher',
+    name: 'Shaik Muhammad Raihaan',
+    title: 'Economics (Hons) Undergraduate | Student Leader',
     image: getAsset('images/profile.png'), // Resolves to /profile.png or /base-path/profile.png
-    description: 'Chandravesh Chaudhari, Ph.D. is an academic and practitioner working at the intersection of business analytics, machine learning, and technology-driven decision-making. His research and teaching focus on applying data science and emerging technologies to solve complex problems in business, economics, and management.\n' +
-        '\n' +
-        'Chandravesh teaches in the School of Business and Management at Christ University, where he has guided numerous students and professionals in mastering advanced Excel, Python, machine learning, and applied analytics. He is deeply involved in curriculum design, research mentorship, and capacity building for industry-oriented business analytics education.\n' +
-        '\n' +
-        'He earned his Ph.D. from Christ University, holds an Masters in Finance, and has completed specialized certifications in analytics and programming. His academic work emphasizes bridging theoretical concepts with real-world applications, particularly in domains such as financial analytics, business intelligence, and operational optimization.\n' +
-        '\n' +
-        'Chandravesh is the author of books “Programming for Machine Learning and Business” and “Machine Learning for Business". He regularly conducts training programs and workshops for professionals and students, focusing on making advanced analytical methods accessible and impactful.',
-    tagline: 'Empowering business through data-driven intelligence.',
+    description: 'I am a second-year Economics (Honours) undergraduate at Christ (Deemed to be) University, Bengaluru. I am a motivated and approachable student who enjoys working with people, taking initiative, and contributing meaningfully to academic and campus life.\n\n' +
+    'I have actively engaged in student leadership through roles such as Class Representative, Student Council member, and organizing committee member for departmental and university-level events. My experiences span event planning, policy simulations, debate forums, and student outreach initiatives.\n\n' +
+    'With a strong foundation in economics, public policy, and social engagement, I aim to build inclusive environments that strengthen collaboration between students, faculty, and administration.',
+    tagline: 'Leadership, policy thinking, and student engagement.',
   location: 'Bangalore, India',
   },
 
   seo: {
-    title: "Dr. Chandravesh Chaudhari - Assistant Professor & AI Researcher",
-    description: 'Official website showcasing Dr. Chandravesh Chaudhari\'s education, research, projects and experience.',
+    title: "Shaik Muhammad Raihaan | Economics Undergraduate",
+    description: 'Official website showcasing Shaik Muhammad Raihaan\'s education, research, projects and experience.',
   },
 
   animatedText: ['AI Researcher', 'Educator', 'Speaker', 'Builder'],
@@ -51,21 +47,23 @@ navigation: [
   education: [
     {
       institution: 'Christ University, Bangalore',
-      degree: 'Doctor of Philosophy (PhD)',
-      year: '2020–2025',
+      degree: 'Bachelor of Arts in Economics (Honours)',
+      year: '2024–2027',
       image: getAsset('images/education/Christ_University.png'),
       description: [
-        'Stock prediction using multimodal learning (tabular, sentiment, time-series, news video)',
+        'Coursework: Microeconomics, Macroeconomics, Statistics for Economics',
+      'Mathematical Economics, Urban Space Development, Economic History of India',
+      'GPA: 3.36 / 4.00',
       ],
     },
     {
-      institution: 'Indira Gandhi National Open University',
-      degree: 'Post Graduate Diploma in Computer Applications',
-      year: '2017–2018',
+      institution: 'Narayana Civil Services Academy',
+      degree: 'Diploma in Arts and Humanities',
+      year: '2022–2024',
       image: getAsset('images/education/ignouLogo.png'),
       description: [
-        'Focused on C programming, systems analysis, web design',
-        'Learned computer organisation, database management, Java programming',
+       'Coursework: History, Public Administration, Polity, Geography',
+      'Indian Economy, Arithmetic and Reasoning',
       ],
     },
     {
@@ -207,23 +205,23 @@ certifications: [
   // ✅ Experience section updated
   experience: [
   {
-    title: "Assistant Professor",
+    title: "School Student Council Member",
     cardImage: getAsset("images/experience/Christ_University.png"),
     place: "Christ University",
-    time: "(May 2025 – Present)",
+    time: "2024 - 2025",
     desp: [
-      "Teaching: Predictive Analytics, Financial Forecasting",
-      "Developed automated Excel assignment checker",
+     'Served as a communication link between faculty and classmates',
+      'Represented student concerns and coordinated academic communication',
     ],
   },
   {
-    title: "Teaching Assistant",
+    title: "Head of Logistics & Production Design",
     cardImage: getAsset("images/experience/Christ_University.png"),
-    place: "Christ University",
-    time: "(May 2022 – Dec 2024)",
+    place: "Christ University, Zariya Productions",
+    time: "(2024 – 2025)",
     desp: [
-      "Courses handled: Computer Applications in Business, Excel, E-commerce",
-      "Guided practical data analysis projects",
+       'Managed logistics and production planning for events',
+      'Coordinated teams and ensured smooth execution of activities',
     ],
   },
 ],
@@ -232,21 +230,21 @@ certifications: [
   // ✅ Projects section updated
   projects: [
     {
-      title: "MultiModal Machine Learning AutoML",
+      title: "Policy Drafting Simulation",
       cardImage: getAsset("images/project/Brain-AutoML.png"),
-      description: "BMMA framework is capable of scaling to multiple modalities such as tabular, sentiment data, time series, and computer vision data...",
+      description:  'Acted as Event Head and co-judge for a policy drafting simulation organised by Econtago, evaluating policy proposals and economic reasoning.',
       Githublink: "https://github.com/chandraveshchaudhari/brain-ai",
     },
     {
-      title: "Hybrid Subset Feature Selection and Importance Framework",
+      title: "Handful of Food Drive",
       cardImage: getAsset("images/project/HSFSIframework.png"),
-      description: "Implements MultiSURF, ReliefF, SURF, and more for scalable feature selection...",
+      description: "Student coordinator for a social outreach initiative focused on food security and community engagement.",
       Githublink: "https://github.com/chandraveshchaudhari/hybrid-feature-selection",
     },
     {
-      title: "systematic-reviewpy",
+      title: "Mock Parliament",
       cardImage: getAsset("images/project/systematic-reviewpy.png"),
-      description: "An open-source Python framework for systematic review based on PRISMA",
+      description: "Led legislative simulations by drafting policy arguments, manifestos, and debating major national issues.",
       Githublink: "https://github.com/chandraveshchaudhari/systematic-reviewpy",
     },
   ],
@@ -300,8 +298,8 @@ certifications: [
   ],
 
   contact: {
-    email: 'chandraveshchaudhari@gmail.com',
-    linkedin: 'https://www.linkedin.com/in/chandravesh-chaudhari/',
+    email: 'shaik.raihaan@baecoh.christuniversity.in',
+    linkedin: 'https://www.linkedin.com/in/shaikraihaan',
     github: 'https://github.com/chandraveshchaudhari',
     googleScholar: 'https://scholar.google.com/citations?authuser=1&user=V78qbA8AAAAJ',
   orcid: 'https://orcid.org/0000-0003-1053-7541',

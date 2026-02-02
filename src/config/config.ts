@@ -18,7 +18,7 @@ const siteConfig = {
 
   seo: {
     title: "Shaik Muhammad Raihaan | Economics Undergraduate",
-    description: 'Official website showcasing Shaik Muhammad Raihaan\'s education, research, projects and experience.',
+    description: "Official website showcasing Shaik Muhammad Raihaan\'s education, research, projects and experience.",
   },
 
   animatedText: ['AI Researcher', 'Educator', 'Speaker', 'Builder'],
